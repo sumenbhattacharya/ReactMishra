@@ -1,0 +1,89 @@
+
+How to run the application:
+**********************************
+
+Download the repository.
+
+Open the VS Code Terminal
+  ------------------------
+  cd <project_Name> 
+  npm install
+  npm run dev
+  -----------------------
+  Check Result in Browser and Console
+
+  =================================
+Project-0
+**************************
+    Example of creating ReactJS Resubale Componenents and use of lifecycle Hood "useState" to change the state of component by changing the value of state variable. 
+
+Project -1
+**************************
+    How to reuse existing ReactJS components from  Material UI - Card Component
+    https://mui.com/material-ui/react-card/
+
+    Install required libraries:
+    https://mui.com/material-ui/getting-started/installation/
+    C:\Projects> npm install @mui/material @emotion/react @emotion/styled
+    C:\Projects\> npm install @mui/material @mui/styled-engine-sc styled-components
+    C:\Projects> npm install @mui/icons-material
+
+Project 2 
+**************************
+    How to useRef Hook ?
+    How to use useEffect ?
+
+    UseEffect
+    -----------------
+    Use : When we need SideEffect task
+    e.g setInterval, SetTimeOut, DOM Manipulation , Fetching Data
+
+    In Functional Compnente , how to use:
+
+    UseEffect ( firt parameter is function, second parameter is array and optional)
+
+    Page reload-> Wehn Component Rendered the useEffect Hook Executed 
+
+    Click Button: When ever the any state is chnaged in the component then again useEffect will exeute 
+
+    useEffect (  ) -> will execute if any state get changed
+    useEffect( , [  ] ) empty arry: useEffect will not execute for any state change
+    useEffect( , [ count ] )  array: useEffect will execute for count state change
+    useEffect( , [ count,name ] ) array: useEffect will execute for count  and name state change
+
+
+    UseRef
+    -------------
+    Use: to manipulate the DOM directly , sometime not possible with stae and props
+    check what exactly useRef() is returning 
+
+    const refElement=useRef()
+    conole.log(refElement) 
+
+
+Project 3
+------------------
+Use of useContext Hook:Passing data from parent component to child1=>child2=>child3 component skipping  child2 and child3.
+Required 3 things: createContext , provider, useContext
+
+
+
+Project 6
+-------------------------
+Passing function as Props from Parent to child Component
+
+
+
+Project 7
+-------------------
+Browser Routing
+
+
+Project : DemoRouting
+--------------------------------
+Browser Routing with ChildRoutes and Layout 
+
+Axios Project
+---------------------------
+Project Name: DemoAxios
+
